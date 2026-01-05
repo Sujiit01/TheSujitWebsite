@@ -90,7 +90,7 @@
             max-width: 1200% auto;
             margin: auto;
             padding: 10%;
-            background-color: lightgreen;
+            background-color: lightpink;
             border: 2px solid darkgreen;
             border-radius: 8px;
             box-shadow: 0 0 20px black;
@@ -118,6 +118,19 @@
             text-align: center;
             margin: 20px auto;
         }
+        a.b:hover{
+            text-decoration: none ;
+            color: blueviolet;
+            background-color: palegreen;
+            padding: 6px 12px;
+            border: 2px solid green;
+            border-radius: 8px;
+
+        }
+        a.b{
+            color:rgb(29, 122, 62);
+        }
+        
     </style>
 </head>
 
@@ -162,18 +175,32 @@
             <h2 class="Sujit">Contact</h2>
             <div>
                 <form action="#" onsubmit="showMessage()">
+                    <p>Your information is not saved, This form is for learning and practice purposes only.</p>
                     <p>Name <input type="text" class="text" placeholder="Enter Your Name" required></p>
                     <p>Email <input type="email" class="email" placeholder="Enter Your Email" required></p>
                     <p>Contact No. <input type="number" class="number" placeholder="Enter Your Number" required></p>
                     <input class="hover" type="submit" value="Submited">
                 </form>
+                <p style="margin-top:10px;">
+                    Or directly email me:
+                    <a class="b" href="mailto:kvs.sujit@gmail.com?subject=Contact%20From%20Website" style="text-decoration: none;" target="_blank ">
+                        Send Email
+                    </a>
+                </p>
+                <p style="margin-top:10px;">
+                    Or message me on WhatsApp:
+                    <a class="b" href="https://wa.me/919930964404" style="text-decoration: none;" target="_blank">
+                        WhatsApp Me
+                    </a>
+                </p>
             </div>
         </section>
         <section id="MyOwnProject">
             <h2 class="Sujit">My Own Project</h2>
             <div class="Project-box">
                 <h3>Payment Form</h3>
-                <p>My first beginner-level website built using HTML and CSS for learning and practice purposes. It is a simple static website without data storage.</p> <a class="a" href="payment_form.html.html"
+                <p>My first beginner-level website built using HTML and CSS for learning and practice purposes. It is a
+                    simple static website without data storage.</p> <a class="a" href="payment_form.html.html"
                     target="_blank">Payment Form</a>
             </div>
         </section>
@@ -197,4 +224,3 @@
 </body>
 
 </html>
-
